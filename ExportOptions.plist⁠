@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>method</key>
+    <string>ad-hoc</string> <!-- ជម្រើសអាចជា: ad-hoc, development, enterprise ឬ app-store -->
+    <key>teamID</key>
+    <string>YOUR_TEAM_ID</string> <!-- ប្ដូរដាក់លេខ Apple Developer Team ID របស់អ្នក -->
+    <key>signingStyle</key>
+    <string>automatic</string> <!-- ប្រើ automatic ឬ manual ប្រសិនបើមាន Provisioning Profile ជាក់លាក់ -->
+    <key>compileBitcode</key>
+    <false/>
+    <key>uploadSymbols</key>
+    <true/>
+</dict>
+</plist>
